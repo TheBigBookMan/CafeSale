@@ -1,6 +1,6 @@
 package org.example;
 // Parent class for the different types of coffee: name and price
-public class CoffeeType {
+public class CoffeeType implements CoffeeVariables {
     protected String name;
     protected double typePrice;
 
