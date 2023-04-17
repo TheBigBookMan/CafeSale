@@ -24,6 +24,7 @@ public class PointOfSale {
         orderCondiments2.add("Milk");
         orderCondiments2.add("Sugar");
         orderCondiments2.add("Coco Powder");
+
         PlaceOrder newOrder2 = new PlaceOrder("Arabica", "Mocha", "Standard", orderCondiments2);
         double total2 = newOrder2.getTotal();
         System.out.println("The total to pay is $" + total2);
