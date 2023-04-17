@@ -2,7 +2,9 @@ package org.example;
 import java.util.ArrayList;
 
 /*
-Using a Command Behavioural Pattern design for the point of sale, as customers can provide an object request with multiple abstract parameters. This requires a design pattern that can return multiple varied results depending on the parameters given.
+Using a Command Behavioural Pattern design for the point of sale, as customers can provide an object request with
+multiple abstract parameters. This requires a design pattern that can return multiple varied results depending on the
+parameters given.
 PointOfSale is the invoker class where the object requesting the command to execute is created.
  This would be connected to the UI to gather the coffee parameters.
  */

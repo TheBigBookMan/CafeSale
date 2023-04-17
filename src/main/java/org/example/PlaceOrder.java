@@ -2,7 +2,10 @@ package org.example;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 /*
-Use of multiple subclasses for each different coffee variable, eg (parent class- Coffee Type, subclasses- Dark Roast, Robusta, House Blend and Arabica). I chose this design as each one can later be added with an inventory count, amount of sales per item, specific discounts or promotional prices, easier to add in extra instance variables with separate subclasses.
+Use of multiple subclasses for each different coffee variable, eg (parent class- Coffee Type, subclasses-
+Dark Roast, Robusta, House Blend and Arabica). I chose this design as each one can later be added with an inventory
+count, amount of sales per item, specific discounts or promotional prices, easier to add in extra instance variables
+with separate subclasses.
 
 PlaceOrder is the receiver class and orders the coffee and returns the total pay
 The total pay is presented in the terminal (just for the sake of the task) rather than returned
